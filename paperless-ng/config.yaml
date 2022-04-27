@@ -13,4 +13,4 @@ ports:
 - 8000/tcp
 webui: http://[HOST]:[PORT:8000]/
 watchdog: http://[HOST]:[PORT:8000]/
-image: "jonaswinkler/paperless-ng"
+image: "ghcr.io/home-assistant/paperless-ng-addon"
