@@ -9,8 +9,8 @@ arch:
   - arm64
   - amd64
 init: false
-ports:
-- 8000/tcp
+ingress: true
+ingress_port: 8000
 webui: http://[HOST]:[PORT:8000]/
 watchdog: http://[HOST]:[PORT:8000]/
-image: "ghcr.io/home-assistant/paperless-ng-addon"
+image: "ghcr.io/home-assistant/paperless-ng-addon-{arch}"

@@ -1,5 +1,9 @@
 ARG BUILD_VERSION
 FROM jonaswinkler/paperless-ng:$BUILD_VERSION
+LABEL \
+  io.hass.version="VERSION" \
+  io.hass.type="addon" \
+  io.hass.arch="armv7|aarch64|amd64"
 
 RUN apt-get update && \
     apt-get upgrade -y && \

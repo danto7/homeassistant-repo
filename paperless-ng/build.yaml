@@ -1,6 +1,0 @@
-# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
-labels:
-  org.opencontainers.image.title: "paperless-ng"
-  org.opencontainers.image.description: "Paperless-ng"
-  org.opencontainers.image.source: "https://github.com/jonaswinkler/paperless-ng"
-  org.opencontainers.image.licenses: "GPL v3"
