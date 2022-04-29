@@ -8,3 +8,4 @@ arch:
   - armv7
   - i386
 ingress: true
+image: "ghcr.io/danto7/home-assistant-ingress-addon-{arch}"
