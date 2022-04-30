@@ -10,6 +10,7 @@ RUN \
 
 #Copy our conf into the nginx http.d folder.
 COPY ingress.conf /etc/nginx/http.d/
+COPY nginx.conf /etc/nginx/nginx.conf
 
 #Launch nginx with debug options.
 CMD [ "nginx","-g","daemon off;error_log /dev/stdout debug;"]
