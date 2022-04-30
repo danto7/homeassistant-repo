@@ -1,0 +1,12 @@
+wget https://github.com/jonaswinkler/paperless-ng/releases/download/ng-1.5.0/paperless-ng-1.5.0.tar.xz
+
+tar -xf paperless-ng-1.5.0.tar.xz
+mkdir /opt/paperless
+apk add python3 py3-pip  imagemagick ttf-liberation optipng gnupg postgresql-dev libmagic
+apk add unpaper ghostscript qpdf leptonica libxml2 pngquant zlib-dev tesseract-ocr libxslt-dev lapack-dev
+apk add base-build py3-wheel py3-setuptools python3-dev musl-dev libffi-dev
+apk add py3-pillow py3-scipy py3-numpy py3-scikit-learn py3-cryptography
+
+mkdir -p /opt/paperless/{media,data,consume}
+adduser -h /opt/paperless -S paperless paperless
+pip install -r requirements.txt

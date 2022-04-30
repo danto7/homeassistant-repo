@@ -1,0 +1,9 @@
+build_from:
+  aarch64: jonaswinkler/paperless-ng:1.5.0
+  amd64: jonaswinkler/paperless-ng:1.5.0
+  armv7: jonaswinkler/paperless-ng:1.5.0
+labels:
+  org.opencontainers.image.title: "Paperless-NG"
+  org.opencontainers.image.description: "paperless-ng"
+  org.opencontainers.image.source: "https://github.com/danto7/homeassistant-repo"
+  org.opencontainers.image.licenses: "GPLv3"
