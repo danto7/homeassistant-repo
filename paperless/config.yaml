@@ -10,5 +10,5 @@ arch:
   - amd64
 init: false
 ingress: true
-ingress_port: 8000
-watchdog: http://[HOST]:[PORT:8000]/
+ingress_port: 8099
+watchdog: http://[HOST]:[PORT:8099]/
